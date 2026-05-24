@@ -1,0 +1,11 @@
+Sector,n,median_CAGR,median_vol,median_sharpe,median_dd
+Communication Services,2,0.043,0.253,0.047,-0.603
+Consumer Discretionary,6,0.117,0.322,0.281,-0.667
+Consumer Staples,5,0.078,0.215,0.216,-0.404
+Energy,4,0.082,0.304,0.179,-0.665
+Financials,6,0.065,0.374,0.09,-0.815
+Healthcare,7,0.076,0.266,0.221,-0.683
+Industrials,7,0.091,0.302,0.213,-0.701
+Materials,2,0.077,0.345,0.145,-0.684
+Technology,8,0.114,0.385,0.219,-0.82
+Utilities,3,0.111,0.237,0.364,-0.478

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated artifacts — re-derivable from scripts
+data/prices/
+data/*.parquet
+plots/*.png
+plots/*.pdf
+reports/*.html
