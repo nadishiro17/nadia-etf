@@ -1,11 +1,28 @@
-# Term Project — Two-Sleeve Barbell ETF
+# Term Project — Three-Book Barbell ETF
 
-A rules-based, actively-managed ETF combining a **defensive mean-reversion sleeve** with a **growth momentum sleeve**, drawn from 50 large-cap US stocks diversified across 10 GICS sectors.
+A rules-based, actively-managed ETF combining a **mean-reversion book**, a **momentum book**, and a **defensive low-volatility book**, drawn from 50 large-cap US stocks diversified across 10 GICS sectors. Risk-parity allocation between books with a rule-based regime tilt.
 
 **Author:** Nadezhda Shiroglazova
 **Course:** MSDS 451 — Financial Engineering
+**Repository:** https://github.com/nadishiro17/nadia-etf
+
+## Headline results (1999–2024)
+
+| Metric | Strategy | SPY |
+|---|---|---|
+| CAGR | **12.02%** | 8.11% |
+| Annual volatility | 15.51% | 19.34% |
+| Sharpe (rf=3%) | **0.62** | 0.35 |
+| Max drawdown | **−36.1%** | −55.2% |
+| Annualized alpha | **+5.25%** | 0% |
+
+Walk-forward OOS (20 folds, 2004–2024): **CAGR 11.03%, Sharpe 0.58, alpha +3.38%**.
+Monte Carlo (500 paths): **97.4% probability of beating SPY**.
+
+Full results in [CHECKPOINT_B_C_REPORT.md](CHECKPOINT_B_C_REPORT.md).
 
 ## Investment philosophy
+
 
 Two uncorrelated engines run in parallel:
 

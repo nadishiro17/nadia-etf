@@ -4,9 +4,8 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 
-# Generated artifacts — re-derivable from scripts
 data/prices/
 data/*.parquet
-plots/*.png
-plots/*.pdf
 reports/*.html
+
+PROGRESS.md
